@@ -1,0 +1,162 @@
+/*
+CORES:
+
+REPROGRAME-SE: #1A7FBE (AZUL), #5B7FB9 (LILAS), C27FB1 (ROSA)
+RESTANTE DA PALETA: #0B132B (AZUL ESCURO), #1C2541 (CINZA)
+
+font-family: 'Darker Grotesque', sans-serif;
+font-family: 'Kanit', sans-serif;
+font-family: 'Nunito Sans', sans-serif;
+font-family: 'Quicksand', sans-serif;
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    background-color: whitesmoke;
+  
+}
+
+#menuResp li {
+   
+    font-size: 1.5em;
+}
+
+#menuResp .nav-item a {
+    text-decoration: none;
+}
+
+.navbar-nav .nav-link {
+    text-decoration: none;
+    color: white;
+    border: 0;
+    font-family: "Roboto", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: white;
+    color: black;
+    border-radius: 0.5em;
+}
+
+#carrosel_slide {
+    width: 100vw;
+}
+
+.carousel-inner img {
+    max-height: 60vh;
+    width: auto;
+    height: auto;
+}
+
+
+.texto-principal {
+    background-image: linear-gradient(to bottom, #c27fb14f, #ffffff2d);
+    padding: 25px;
+}
+
+.texto-inscricao {
+    font-size: 45px;
+    margin: 10px;
+    font-weight: 800;
+    color: rgba(54, 54, 54, 0.877);
+    text-decoration: none;
+}
+
+.calendario {
+    padding: 10px;
+    margin: 5px;
+}
+
+.cabecalhoCalendario {
+    padding: 10px 0;
+    margin: 0;
+    background-color: #5b7fb979;
+}
+
+table,
+.respEvento {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #5e5e5e09;
+}
+
+.diaOutroMes {
+    color: rgb(202, 202, 202);
+}
+
+#diaEvento1,
+#diaEvento2,
+#diaEvento3 {
+    background-color: #5b7fb962;
+    border: none;
+    font-weight: 600;
+    text-align: center;
+}
+
+.img-depoimento {
+    width: 250px;
+    border-radius: 125px;
+}
+
+.btn-inscricao,
+#btnSubmit {
+    padding: 5px 10px;
+}
+
+.btn-inscricao a,
+#btnSubmit {
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}*/
+
+.btn-inscricao a:hover,
+#btnSubmit:hover,
+#diaEvento:hover,
+#inscricao:hover {
+    color: #C27FB1;
+}
+
+.fundo-gradiente {
+    background-image: linear-gradient(to right, #1a7fbe56, #5b7fb92d);
+    padding: 15px 0;
+}
+
+.textog2,
+.textog3 {
+    color: #5B7FB9;
+    font-weight: bold;
+    font-size: 40px;
+    text-shadow: #1a7fbe3d 2px 3px 2px;
+}
+
+.bg-cinza {
+    background-color: #1C2541;
+}
+
+.footer-cinza {
+    color: white;
+    text-align: center;
+    background-color: #1C2541;
+}
+
+.footer-cinza>p {
+    padding: 10px 0;
+    margin: 0;
+}
+
+@media (max-width: 992px) {
+    .textog3 {
+        color: #5B7FB9;
+        font-weight: bold;
+        font-size: 20px;
+        text-shadow: #1a7fbe3d 2px 3px 2px;
+    }
+}
